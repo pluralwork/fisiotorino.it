@@ -39,6 +39,11 @@
           }
         }
       }
+      span {
+        display: block;
+        color: $theme-primary;
+        text-transform: uppercase;
+      }
     }
   }
   * {

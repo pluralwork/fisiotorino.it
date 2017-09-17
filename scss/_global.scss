@@ -82,6 +82,19 @@ section {
 section.success {
   color: white;
   background: $theme-success;
+
+  p {
+    a,
+    a.active,
+    a:active,
+    a:focus,
+    a:hover {
+      color: white;
+      outline: none;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
 }
 @media(max-width:767px) {
   section {

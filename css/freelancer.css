@@ -76,6 +76,15 @@ section {
 section.success {
   color: white;
   background: #18BC9C; }
+  section.success p a,
+  section.success p a.active,
+  section.success p a:active,
+  section.success p a:focus,
+  section.success p a:hover {
+    color: white;
+    outline: none;
+    text-decoration: underline;
+    cursor: pointer; }
 
 @media (max-width: 767px) {
   section {
@@ -220,6 +229,10 @@ header.masthead {
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
           margin: 0; }
+    #portfolio .portfolio-item .portfolio-link span {
+      display: block;
+      color: #2C3E50;
+      text-transform: uppercase; }
 
 #portfolio * {
   z-index: 2; }
