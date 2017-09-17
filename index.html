@@ -161,18 +161,18 @@
       <h2 class="text-center">Chi sono</h2>
       <hr class="star-light">
       <div class="row">
-        <div class="col-lg-4 ml-auto">
+        <!-- <div class="col-lg-4 ml-auto">
           <p>Bla bla bla.</p>
         </div>
         <div class="col-lg-4 mr-auto">
           <p>Bla bla bla.</p>
-        </div>
+        </div> -->
         <div class="col-lg-8 mx-auto text-center">
-          <a href="#" class="btn btn-lg btn-outline">
+          <a href="#formazioneModal" class="btn btn-lg btn-outline" data-toggle="modal">
             <i class="fa fa-graduation-cap"></i>
             Studi e formazione
           </a>
-          <a href="#" class="btn btn-lg btn-outline">
+          <a href="#esperienzeModal" class="btn btn-lg btn-outline" data-toggle="modal">
             <i class="fa fa-file"></i>
             Esperienze professionali
           </a>
@@ -189,35 +189,52 @@
 
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <h3>Studio Muratori</h3>
-          <p>Via Ludovico Muratori, 34
-            <br />
-            10126 TORINO
-            <br />
+          <h3>Studio Via Muratori</h3>
+          <address>
             <a target="blank" href="https://www.google.com/maps/place/Via+Ludovico+Antonio+Muratori,+34,+10126+Torino+TO,+Italy/@45.0441022,7.6670085,17z/data=!3m1!4b1!4m5!3m4!1s0x47886d4a8088d737:0xe2b5ab83181003fe!8m2!3d45.0441022!4d7.6692025"
               class="btn btn-lg">
               <i class="fa fa-map"></i>
-              Mappa
+              Via Ludovico Muratori, 34
+              <br />
+              10126 TORINO
             </a>
-          </p>
+            <br />
+            <a target="blank" href="#studioMuratoriModal"
+              class="btn btn-lg" data-toggle="modal">
+              <i class="fa fa-picture-o"></i>
+              Foto
+            </a>
+          </address>
         </div>
         <div class="col-lg-4 mr-auto">
           <h3>Studio Chiros</h3>
-          <p>Via Vittorio Amedeo II, 8
-            <br/>
-            10121 TORINO
-            <br/>
+          <address>
             <a target="blank" href="https://www.google.com/maps/place/Via+Vittorio+Amedeo+II,+8,+10121+Torino+TO,+Italy/@45.0717978,7.668207,17z/data=!3m1!4b1!4m5!3m4!1s0x47886d0e71989e29:0x139d5a95e0c0253d!8m2!3d45.0717978!4d7.670401"
               class="btn btn-lg">
               <i class="fa fa-map"></i>
-              Mappa
+              Via Vittorio Amedeo II, 8
+              <br/>
+              10121 TORINO
             </a>
-          </p>
+            <br/>
+            <a target="blank" href="#studioChirosModal"
+              class="btn btn-lg" data-toggle="modal">
+              <i class="fa fa-picture-o"></i>
+              Foto
+            </a>            
+          </address>
         </div>
         <div class="col-lg-4 mr-auto">
           <h3>Telefono/Email</h3>
-          <p><i class="fa fa-phone" aria-hidden="true"></i> 3384789128</p>
-          <p><i class="fa fa-envelope-o" aria-hidden="true"></i> TODO@email.com</p>
+          <address>
+            <a href="tel:3384789128">
+              <i class="fa fa-phone" aria-hidden="true"></i> 3384789128
+            </a>
+            <br />
+            <a href="mailto:todo@email.com">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i> TODO@email.com
+            </a>
+          </address>
         </div>
       </div>
     </div>
@@ -311,7 +328,8 @@
       </div>
     </div>
   </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <div class="portfolio-modal modal fade" id="serviziRiabilitazione" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -323,32 +341,32 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <h2>Project Title</h2>
+                <h2>Riabilitazione e rieducazione</h2>
                 <hr class="star-primary">
-                <img class="img-fluid img-centered" src="img/portfolio/cake.png" alt="">
-                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free
-                  set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                          </strong>
-                  </li>
-                  <li>Date:
-                    <strong>
-                            <a href="http://startbootstrap.com">April 2014</a>
-                          </strong>
-                  </li>
-                  <li>Service:
-                    <strong>
-                            <a href="http://startbootstrap.com">Web Development</a>
-                          </strong>
-                  </li>
+
+                <p>
+                  Prevede l'applicazione di un numero di sedute variabile in relazione alla gravità del problema manifestato e alla capacità di guarigione intrinseca di ogni soggetto.
+                </p>
+                <p>
+                  Al termine di questa fase il soggetto può riprendere l'attività lavorativa quotidiana con estrema sicurezza.
+                </p>
+                <p>
+                  Per la ripresa dell'attività sportiva è consigliato un periodo di rieducazione sport-specifica e ri-atletizzazione.
+                </p>
+                   
+                <p>
+                  Tipi di riabilitazione praticata in studio:
+                </p>                    
+                <u class="text-left">
+                  <li>Riabilitazione e rieducazione ortopedica post-traumatica e post-intervento.</li>
+                  <li>Riabilitazione per disfunzioni del sistema cranio-temporo-mandibolare.</li>
+                  <li>Riabilitazione posturale per problematiche a carico della colonna vertebrale.                  </li>
                 </ul>
+                </p>
+                
                 <button class="btn btn-success" type="button" data-dismiss="modal">
-                        <i class="fa fa-times"></i>
-                        Close</button>
+                    <i class="fa fa-times"></i>
+                    Close</button>
               </div>
             </div>
           </div>
@@ -356,7 +374,9 @@
       </div>
     </div>
   </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  
+
+  <div class="portfolio-modal modal fade" id="serviziFisiokinesiterapia" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -368,167 +388,30 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <h2>Project Title</h2>
+                <h2>Fisiokinesiterapia</h2>
                 <hr class="star-primary">
-                <img class="img-fluid img-centered" src="img/portfolio/circus.png" alt="">
-                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free
-                  set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>
-                                <a href="http://startbootstrap.com">Start Bootstrap</a>
-                              </strong>
-                  </li>
-                  <li>Date:
-                    <strong>
-                                <a href="http://startbootstrap.com">April 2014</a>
-                              </strong>
-                  </li>
-                  <li>Service:
-                    <strong>
-                                <a href="http://startbootstrap.com">Web Development</a>
-                              </strong>
-                  </li>
-                </ul>
+                
+                <p>Il termine kinesi deriva dal greco "Kinesis" e significa movimento.</p>
+                
+                <p>Quando il terapista muove un segmento corporeo del paziente si parla di Kinesi passiva, se il paziente muove attivamente un arto e il terapista lo aiuta, sostenendone in parte il peso, parliamo di Kinesi attivo-assistita.</p>
+                
+                <p>È un trattamento individuale. L'obiettivo è quello di facilitare il recupero della corretta ampiezza articolare di una o più articolazioni.</p>
+                
+                <h3>A COSA SERVE</h3>
+                
+                <p>In seguito ad un trauma, un intervento chirurgico, una immobilizzazione prolungata (gesso, tutori etc.) un'articolazione può perdere la capacità di muoversi nei i suoi piani fisiologici per una riduzione di elasticità tissutale.</p>
+                
+                <p>Attraverso varie tecniche, il terapista mobilizza le articolazioni coinvolte nella limitazione cercando, attraverso un lavoro graduale, di far riacquistare al paziente la maggior mobilità consentita.</p>
+                
+                <p>Durante il trattamento il terapista utilizza pompage articolari e muscolari, de-coaptazioni articolari, facilitazioni neuro-muscolari, massaggio; a seconda della patologia o del tipo di intervento chirurgico. Vengono strettamente rispettati i tempi biologici di guarigione; durante tutto il trattamento si lavora sotto soglia algica, ossia senza far percepire dolore.</p>
+                
+                <p>Questo tipo di trattamento è parte integrante di un programma riabilitativo più ampio in cui alla mobilizzazione passiva e attivo-assistita vengono associate, rispettando modalità e tempi, riabilitazione e rieducazione sia in acqua che a secco.</p>
+                
+                <p>Le sedute hanno una durata di circa 30 minuti e, a seconda del programma definito, la frequenza può variare da una a più volte la settimana.</p>
+
                 <button class="btn btn-success" type="button" data-dismiss="modal">
-                            <i class="fa fa-times"></i>
-                            Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2>Project Title</h2>
-                <hr class="star-primary">
-                <img class="img-fluid img-centered" src="img/portfolio/game.png" alt="">
-                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free
-                  set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>
-                                    <a href="http://startbootstrap.com">Start Bootstrap</a>
-                                  </strong>
-                  </li>
-                  <li>Date:
-                    <strong>
-                                    <a href="http://startbootstrap.com">April 2014</a>
-                                  </strong>
-                  </li>
-                  <li>Service:
-                    <strong>
-                                    <a href="http://startbootstrap.com">Web Development</a>
-                                  </strong>
-                  </li>
-                </ul>
-                <button class="btn btn-success" type="button" data-dismiss="modal">
-                                <i class="fa fa-times"></i>
-                                Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2>Project Title</h2>
-                <hr class="star-primary">
-                <img class="img-fluid img-centered" src="img/portfolio/safe.png" alt="">
-                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free
-                  set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>
-                                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                                      </strong>
-                  </li>
-                  <li>Date:
-                    <strong>
-                                        <a href="http://startbootstrap.com">April 2014</a>
-                                      </strong>
-                  </li>
-                  <li>Service:
-                    <strong>
-                                        <a href="http://startbootstrap.com">Web Development</a>
-                                      </strong>
-                  </li>
-                </ul>
-                <button class="btn btn-success" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i>
-                                    Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2>Project Title</h2>
-                <hr class="star-primary">
-                <img class="img-fluid img-centered" src="img/portfolio/submarine.png" alt="">
-                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free
-                  set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>
-                      <a href="http://startbootstrap.com">Start Bootstrap</a>
-                    </strong>
-                  </li>
-                  <li>Date:
-                    <strong>
-                      <a href="http://startbootstrap.com">April 2014</a>
-                    </strong>
-                  </li>
-                  <li>Service:
-                    <strong>
-                      <a href="http://startbootstrap.com">Web Development</a>
-                    </strong>
-                  </li>
-                </ul>
-                <button class="btn btn-success" type="button" data-dismiss="modal">
-                                        <i class="fa fa-times"></i>
-                                        Close</button>
+                    <i class="fa fa-times"></i>
+                    Close</button>
               </div>
             </div>
           </div>
@@ -537,6 +420,297 @@
     </div>
   </div>
 
+  <div class="portfolio-modal modal fade" id="serviziMassaggi" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Massaggi</h2>
+                <hr class="star-primary">
+                
+                <p>Il massaggio (dal greco massein che significa "impastare", "modellare") è la più antica forma di terapia fisica, utilizzata nel tempo da differenti civiltà, per alleviare dolori e decontrarre la muscolatura allontanando la fatica.
+                    Oggi trova spazio all'interno della fisioterapia, della medicina alternativa e nei trattamenti estetici.
+                    Ne esistono infatti diversi tipi, con differenti finalità: distensivi, muscolari, sportivi, antidolore.</p>
+
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="portfolio-modal modal fade" id="serviziBendaggio" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Bendaggio funzionale</h2>
+                <hr class="star-primary">
+                
+                <p>Il bendaggio funzionale è un tipo di fasciatura dinamica, che fornisce cioè un'immobilizzazione parziali: non impedisce il fisiologico movimento di un'articolazione ma arresta qualsiasi forza che possa causare un danno alla struttura che vogliamo proteggere.</p>
+                
+                <p>Rappresenta un'evoluzione ponendosi tra le fasciature semplicemente contenitive e quelle rigide, rispetto alle quali presenta il vantaggio di non causare ipotrofie muscolari e di conservare il coordinamento tra il segmento sano e quello leso.</p>
+                
+                <p>Utilizzando bende adesive di vario tipo, elastiche e non, mira a costruire un supporto esterno atto a rinforzare un'articolazione, sia immediatamente dopo un trauma che a distanza, quando questa risulti deficitaria.
+                Può essere utilizzato anche in un arto normale quando questo viene sottoposto come nell'attività sportiva, a sforzi eccessivi e quindi potenzialmente lesi.</p>
+                
+                <p>Il bendaggio funzionale ha perciò:</p>
+                
+                <ul class="text-left">
+                <li>AZIONE MECCANICA DI CONTENZIONE</li>
+                
+                <li>AZIONE ESTEROCETTIVA (la benda perfettamente aderente alla cute trasmette il movimento a tutte le strutture sottostanti stimolando i recettori del movimento ed allertando gli stabilizzatori dinamici muscolari che vengono così allenati ad intervenire prontamente in difesa delle strutture capsule - legamentose)</li>
+                
+                <li>AZIONE PSICOLOGICA (sicurezza)</li>
+                </ul>
+
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="serviziRiabilitazioneNeuro" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Riabilitazione neurologica</h2>
+                <hr class="star-primary">
+                
+                <p>La riabilitazione neurologica è consigliata in tutti gli esiti di:</p>
+                
+                <ul class="text-left">
+                <li>disordini del sistema nervoso centrale</li>
+                
+                <li>Paralisi pseudo-bulbare progressiva</li>
+                
+                <li>ictus</li>
+                
+                <li>atassia</li>
+                
+                <li>emorragie cerebrali</li>
+                
+                <li>sindromi cerebellari</li>
+                
+                <li>Morbo di Parkinson</li>
+                
+                <li>sindromi piramidali ed extrapiramidali</li>
+                </ul>
+                
+                <p>L’obiettivo dell'intervento riabilitativo è quello di raggiungere il livello di autonomia più alto possibile nelle fasi acute e sub-acute (fino ad 1 anno circa dall'evento), di mantenere e consolidare i risultati raggiunti nel periodo successivo. </p>
+                
+                <p>Nella riabilitazione neurologica la cosa più importante è partire con la costruzione di un progetto a lungo termine e un programma giornaliero. </p>
+                
+                <p>Gli obiettivi da perseguire sono:</p>
+                
+                <ul class="text-left">
+                <li>Raggiungere il livello di autonomia più alto possibile nelle fasi acute e sub-acute </li>
+                
+                <li>Reinserimento nella vita sociale </li>
+                
+                <li>Proseguire e consolidare i risultati raggiunti</li>
+                </ul>
+
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="portfolio-modal modal fade" id="formazioneModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Studi e formazione</h2>
+                <hr class="star-primary">
+                
+                <p>1999 <strong>Maturità Scientifica</strong> presso liceo scientifico E. Majorana di Moncalieri.</p>
+                
+                <p>2003 <strong>Laurea con lode in Fisioterapia</strong> presso l’Università degli studi di Torino.</p>
+                
+                <h4>Formazione specialistica</h4>
+                <p>Formazione specialistica post-laurea in terapia manuale e riabilitazione dei disturbi neuro-muscolo-scheletrici frequentando i seguenti corsi:</p>
+                
+                <p>2004 Siena. Corso di medicina ortopedica Cyriax, docente Dr. Dirk Lammertijn-O.M.I.Global-Brussels per un totale di 102 ore di formazione teorico-pratica.</p>
+                
+                <p>2006 Roma. Corso Maitland, docente Dr.in ft. Robert Valentiny, riconosciuto dall’ I.M.T.A. per la ricerca, l’analisi e la terapia di lesioni neuro-muscolo-scheletriche secondo il concetto Maitland per un totale di 160 ore di formazione teorico-pratica.</p>
+                
+                <p>2007 Milano. Corso Mulligan, docente Dr.in ft. Stefano Serrecchia, riconosciuto dalla Mulligan Teacher Association con una frequenza di 32 ore di teoria e pratica.</p>
+                
+                <p>2007 Torino. Corso N.O.I. Mobilizzazione del sistema nervoso, docente Prof. Dr. Harry J.M. von Piekartz, per diagnosi e gestione terapeutica delle disfunzioni fisiche del sistema nervoso nel contesto della scienza del dolore e del ragionamento clinico per un totale di 23 ore di formazione teorico-pratica.</p>
+                
+                <p>2009 Iseo(Bs). Corso di Orthopedic Manipulative Therapy of the O.M.T. Kaltenborn-Evjenth Concept, docente Dr. Jochen Schomacher, per diagnosi, pianificazione, trattamento e rivalutazione delle disfunzioni del sistema artro-neuro-muscolare per un totale di 237 ore di formazione teorico-pratica.</p>
+                
+                <p>2010 Albenga(Sv). Corso C.R.A.F.T.A. di Valutazione, Trattamento e Gestione delle Disfunzioni del sistema Cranio-mandibolare e Cranio-facciale, Docente Prof. Dr. Harry J.M. Von Piekartz, per un totale di 80 ore di formazione teorico-pratica.</p>
+                
+                <p>2012 Padova. Corso di Advanced Orthopedic Manipulative Therapy of the O.M.T. Kaltenborn-Evjenth Concept (II livello), docente Dr. Jochen Schomacher, per diagnosi, pianificazione, trattamento e rivalutazione delle disfunzioni del sistema arto-neuro-muscolare per un totale di 100 ore di formazione teorico-pratica.</p>
+                
+                <p>2013 Milano. Corso di Terapia Manuale Trigger Point Miofasciale, docente Adriano Di Giacomo, per un totale di 22 ore di formazione teorico-pratica.</p>
+                
+                <p>2013 Milano. Corso di Manipolazione a leva corta di rachide cervicale, toracico e lombare, docente Prof. Daryl Herbert, per un totale di 17 ore di formazion teorico-pratica.</p>
+                
+                <p>Plantari Vasyli</p>
+                
+                <p>2014 Torino. Corso di Management of neck pain disorders, docente Prof.ssa Deborah Falla per un totale di 22 ore di formazione teorico- pratica.</p>
+                
+                <p>2015 Milano. Corso di Manipolazioni Vertebrali, docente Marco Barbero per un totale di 25 ore di formazione teorico -pratica.</p>
+                
+                <p>2015 Padova. Rieducazione vestibolare e delle vertigini di origine periferica, docente Jeanluc Saignez per un totale di 24 ore di formazione teorico-pratica. </p>
+                
+                <p>2016 Treviso. Rieducazione vestibolare:  vertigine posizionale e capogiro, docenti Richard Clendaniel, Neil Shepard, Laura Morris per un totale di 26 ore di formazione teorico-pratica. </p>
+                
+                <p>2017 Savona. Il processo diagnostico ed il trattamento del tratto lombopelvico, docente Andry Vleeming per un totale di di 24 ore di formazione teorico-pratica.</p>
+
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="portfolio-modal modal fade" id="esperienzeModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Esperienze professionali</h2>
+                <hr class="star-primary">
+                
+                <p>Dal 2003 libero-professionista presso lo studio medico-fisioterapico Chiros Via Vittorio Amedeo II 8 Torino.</p>
+                
+                <p>Dal 2007 libero-professionista per la fondazione Don Gnocchi Torino.</p>
+                
+                <p>Dal 2008 libero-professionista presso lo studio medico Cerati-Palazzo Via Ludovico Muratori 34 Torino.</p>
+                
+                <p>Dal 2009 Consulente fisioterapista presso lo studio M.T.I. Via San Secondo 72 Torino.</p>
+
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="studioMuratoriModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Studio Via Muratori</h2>
+                <hr class="star-primary">
+                
+                <img class="img-fluid img-centered" src="img/studio-muratori/interno01.jpeg" alt="">
+                <img class="img-fluid img-centered" src="img/studio-muratori/lettino.JPG" alt="">
+                <img class="img-fluid img-centered" src="img/studio-muratori/salaAttesa.jpg" alt="">
+                <img class="img-fluid img-centered" src="img/studio-muratori/esterno01.jpg" alt="">
+                <img class="img-fluid img-centered" src="img/studio-muratori/esterno02.jpg" alt="">
+
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="studioChirosModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Studio Chiros</h2>
+                <hr class="star-primary">
+                
+                <img class="img-fluid img-centered" src="img/studio-chiros/esterno01.jpg" alt="">
+                <img class="img-fluid img-centered" src="img/studio-chiros/esterno02.jpg" alt="">
+                
+                <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/popper/popper.min.js"></script>
