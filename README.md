@@ -11,5 +11,6 @@ Based on: [Start Bootstrap - Freelancer](https://startbootstrap.com/template-ove
 - TESTO #2c3e50
 - COLLABORAZIONI con loghi
 - Mappa google
+- togliere chiros da contatti 
 
 aggiungere RIABILITAZIONE VESTIBOLARE, RIABILITAZIONE CRANIO-TEMPORO-MANDIBOLARE, TRATTAMENTO CEFALEA CERVICOGENICA
