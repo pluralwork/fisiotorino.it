@@ -15,9 +15,3 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 - `gulp minify-js` minifies the themes JS file
 - `gulp copy` copies dependencies from node_modules to the vendor directory
 
-## TODO
-
-- COLLABORAZIONI con loghi
-- Mappa google
-
-aggiungere RIABILITAZIONE VESTIBOLARE, RIABILITAZIONE CRANIO-TEMPORO-MANDIBOLARE, TRATTAMENTO CEFALEA CERVICOGENICA
