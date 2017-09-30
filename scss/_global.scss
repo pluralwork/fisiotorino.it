@@ -16,8 +16,9 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-  color: $theme-success;
+  color: $theme-success-text;;
   outline: none;
+  cursor: pointer;
 }
 
 h1,
@@ -52,10 +53,10 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-  border-color: white;
+  border-color: $theme-success-text;;
 }
 hr.star-light:after {
-  color: white;
+  color: $theme-success-text;;
   background-color: $theme-success;
 }
 
@@ -83,22 +84,23 @@ section {
   }
 }
 
-section.success {
-  color: white;
-  background: $theme-success;
-
-  p {
-    a,
-    a.active,
-    a:active,
-    a:focus,
-    a:hover {
-      color: white;
-      outline: none;
-      text-decoration: underline;
-      cursor: pointer;
-    }
+section {
+  a,
+  a.active,
+  a:active,
+  a:focus,
+  a:hover {
+    text-decoration: underline;
   }
+
+  a.btn {
+    text-decoration: none;
+  }
+}
+
+section.success {
+  color: $theme-success-text;;
+  background: $theme-success;
 }
 @media(max-width:767px) {
   section {

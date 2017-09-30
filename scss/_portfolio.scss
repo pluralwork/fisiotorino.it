@@ -39,10 +39,14 @@
           }
         }
       }
+
+      img {
+      }
+
       span {
         display: block;
+        font-weight: bold;
         color: $theme-primary;
-        text-transform: uppercase;
       }
     }
   }
