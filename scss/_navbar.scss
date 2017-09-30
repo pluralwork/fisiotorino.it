@@ -9,27 +9,27 @@
     outline: none;
   }
   .navbar-brand {
-    font-size: 1.1rem;
-    color: white;
+    font-size: 1.5rem;
+    color: $theme-primary-text;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: white;
+      color: $theme-primary-text;
     }
   }
   .navbar-nav {
     letter-spacing: 1px;
     li.nav-item {
       a.nav-link {
-        color: white;
+        color: $theme-primary-text;
         &:hover {
-          color: $theme-success;
+          color: $theme-primary-text;
           outline: none;
         }
         &:active,
         &:focus {
-          color: white;
+          color: $theme-primary-text;
         }
       }
     }
@@ -38,11 +38,11 @@
     font-size: 14px;
     padding: 11px;
     text-transform: uppercase;
-    color: white;
-    border-color: white;
+    color: $theme-primary-text;
+    border-color: $theme-primary-text;
     &:focus,
     &:hover {
-      color: white;
+      color: $theme-success-text;
       border-color: $theme-success;
       background-color: $theme-success;
     }
@@ -62,13 +62,13 @@
       transition: all 0.3s;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: white;
+      color: $theme-success-text;
       border-radius: 3px;
       background: $theme-success;
       &:active,
       &:focus,
       &:hover {
-        color: white;
+        color: $theme-success-text;
         background: $theme-success;
       }
     }
