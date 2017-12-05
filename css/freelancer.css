@@ -466,3 +466,6 @@ footer {
 .btn:active,
 .btn:focus {
   outline: none; }
+
+#collaborazioni img.rounded {
+  border: solid #2C3E50 1px; }

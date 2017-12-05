@@ -6,3 +6,7 @@
 @import "portfolio.scss";
 @import "contact.scss";
 @import "bootstrap-overrides.scss";
+
+#collaborazioni img.rounded {
+  border: solid $theme-primary 1px;
+}
